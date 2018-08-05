@@ -1,0 +1,25 @@
+package com.easy;
+
+import java.util.Hashtable;
+import java.util.Stack;
+
+public class Anagram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public int[] anagramMappings(int[] A, int[] B) {
+		int[] result = new int[A.length];
+		Hashtable<Integer, Stack<Integer>> keyValue = new Hashtable<Integer, Stack<Integer>>();
+		int i=0;
+		for (int bValue: B) {
+			Stack<Integer> indices = keyValue.get(bValue);
+			indices.push(i);
+			keyValue.put(bValue, indices);
+		}
+		return result;
+	}
+
+}

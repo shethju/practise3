@@ -1,0 +1,18 @@
+package com.easy;
+
+public class JudgeCircle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public boolean judgeCircle(String moves) {
+        boolean result = true;
+		char[] movesArray = moves.toCharArray();
+		for (char move: movesArray) {
+			
+		}
+        return result;
+    }
+}

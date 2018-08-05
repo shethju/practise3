@@ -1,0 +1,19 @@
+package com.easy;
+
+import java.util.Set;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class FirstUniqueCharacterInString {
+//https://leetcode.com/problems/first-unique-character-in-a-string/discuss/86511/Java-One-Pass-Solution-with-LinkedHashMap
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print(firstUniqChar("ababc"));
+	}
+
+	public static int firstUniqChar(String s) {
+        Set<Character> charactersSeen = new HashSet<Character>();
+        Map<Character, >
+    }
+}

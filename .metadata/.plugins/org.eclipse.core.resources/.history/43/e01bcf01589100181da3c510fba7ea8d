@@ -1,0 +1,40 @@
+package com.easy;
+
+public class ReverseVowelsInString {
+	// https://leetcode.com/problems/reverse-vowels-of-a-string/description/
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(reverseVowels("leetcode"));
+	}
+	
+	public static String reverseVowels(String s) {
+		if (s == null || s.isEmpty()) return s;
+		int strLength = s.length();
+		char[] str = s.toCharArray();
+		int headPtr = 0, tailPtr = strLength - 1;
+		char head, tail;
+		boolean headFound = false, tailFound = false;
+		int headFoundIndex, tailFoundIndex;
+		while (headPtr > tailPtr) {
+			if (!headFound) {
+				head = str[headPtr];
+				if (head == 'a' || head == 'e' || head == 'i' || head == 'o' || head == 'u') {
+					headFound = true;
+					headFoundIndex = headPtr;
+				} else {
+					headPtr++;
+				}
+			}
+			if (!tailFound) {
+				tail = str[tailPtr];
+				if (tail == 'a' || tail == 'e' || tail == 'i' || tail == 'o' || tail == 'u') {
+					tailFound = true;
+					tailFoundIndex = tailPtr;
+				} else {
+					tailPtr--;
+				}
+			}
+		}
+    }
+
+}

@@ -1,0 +1,21 @@
+package com.easy;
+
+import java.util.ArrayList;
+import java.util.Hashtable;
+import java.util.LinkedList;
+
+public class Anagram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public int[] anagramMappings(int[] A, int[] B) {
+		int[] result = new int[A.length];
+		Hashtable<String, ArrayList<Integer>> keyValue = new Hashtable<String, ArrayList<Integer>>();
+		
+		return result;
+	}
+
+}

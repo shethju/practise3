@@ -1,0 +1,14 @@
+package com.easy;
+
+public class Anagram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public int[] anagramMappings(int[] A, int[] B) {
+		
+	}
+
+}

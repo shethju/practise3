@@ -1,0 +1,29 @@
+package com.easy;
+
+public class GuessNumBinarySearch {
+// https://leetcode.com/problems/guess-number-higher-or-lower/description/
+	static int j = 4;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(guessNumber(10));
+	}
+
+	public static int guessNumber(int n) {
+        int l = 1;
+        int r = n;
+        while (l < r) {
+        		int middle = l + (r-l)/2;
+        		int guessResult = guess(middle);
+        		if (guessResult == 0) return middle;
+        		if (guessResult == -1) r = middle;
+        		if (guessResult == 1) l = middle + 1;
+        }
+        return -1;
+    }
+	
+	public static int guess(int i) {
+		if (i == j) return 0;
+		if (i > j) return 1;
+		else return -1;
+	}
+}

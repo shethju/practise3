@@ -1,0 +1,17 @@
+package com.easy;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MissingElementsArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int elements[] = {1,2,2,3};
+	}
+	
+    public List<Integer> findDisappearedNumbers(int[] nums) {
+        List<Integer> result = new ArrayList<Integer>();
+        return result;
+    }
+}

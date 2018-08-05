@@ -1,0 +1,28 @@
+package com.easy;
+
+public class JudgeCircle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public boolean judgeCircle(String moves) {
+		char[] movesArray = moves.toCharArray();
+		int updown=0, leftright = 0;
+		for (char move: movesArray) {
+			switch (move) {
+				case 'U':
+					++updown;
+				case 'D':
+					--updown;
+				case 'L':
+					++leftright;
+				case 'R':
+					--leftright;
+			}
+					
+		}
+        return (updown == 0 && leftright == 0); 
+    }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;n&apos; in &apos;com.easy.GuessNumBinarySearch.guess(...)&apos; to &apos;i&apos;&#x0A;- Original project: &apos;dsalgo-master&apos;&#x0A;- Original element: &apos;com.easy.GuessNumBinarySearch.guess(int).n&apos;&#x0A;- Renamed element: &apos;n&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;n&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.easy{GuessNumBinarySearch.java[GuessNumBinarySearch~guess~I@n!316!320!320!320!I!0!true" name="i" references="true" stamp="1533042317924" version="1.0"/>
+</session>

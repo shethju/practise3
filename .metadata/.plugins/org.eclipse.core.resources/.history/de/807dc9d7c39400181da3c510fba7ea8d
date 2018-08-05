@@ -1,0 +1,26 @@
+package com.easy;
+
+public class GuessNumBinarySearch {
+// https://leetcode.com/problems/guess-number-higher-or-lower/description/
+	static int j = 4;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(guessNumber(10));
+	}
+
+	public static int guessNumber(int n) {
+        int l = 1;
+        int r = n;
+        int middle = l + (r-1)/2;
+        int guessResult = guess(middle);
+        if (guessResult == 0) return middle;
+        if (guessResult == -1) 
+        
+    }
+	
+	public static int guess(int i) {
+		if (i == j) return 0;
+		if (i > j) return -1;
+		else return 1;
+	}
+}
