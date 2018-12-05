@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="value"/>\n<expression enabled\="true" text\="value"/>\n<expression enabled\="true" text\="map.keySet()"/>\n</watchExpressions>\n
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="strs[i].indexOf(pre)"/>\n<expression enabled\="true" text\="pre"/>\n<expression enabled\="true" text\="pre.length()-1"/>\n<expression enabled\="true" text\="pre.substring(0,pre.length()-1)"/>\n<expression enabled\="true" text\="strs[i]"/>\n</watchExpressions>\n
